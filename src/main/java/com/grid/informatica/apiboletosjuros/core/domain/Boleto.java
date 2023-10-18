@@ -5,14 +5,14 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Getter
 @Setter
 public class Boleto {
 
     private String codigo;
-    private LocalDateTime dataVencimento;
+    private LocalDate dataVencimento;
     private BigDecimal valor;
     private TipoBoleto tipo;
 }
